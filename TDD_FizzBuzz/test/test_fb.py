@@ -12,3 +12,7 @@ def test_mult3():
 def test_mult5():
     for i in [5, 10]:
         assert fizz_buzz(i) == "buzz"
+
+def test_FizzBuzz():
+    for i in [15, 30, 45]:
+        assert fizz_buzz(i) == "fizzbuzz"
