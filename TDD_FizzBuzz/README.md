@@ -1,10 +1,5 @@
-ohce is a console application that echoes the reverse of what you input through the console.
-
-Even though it seems a silly application, ohce knows a thing or two.
-
-When you start ohce, it greets you differently depending on the current time, but only in Spanish:
-Between 20 and 6 hours, ohce will greet you saying: ¡Buenas noches < your name >!
-Between 6 and 12 hours, ohce will greet you saying: ¡Buenos días < your name >!
-Between 12 and 20 hours, ohce will greet you saying: ¡Buenas tardes < your name >!
-When you introduce a palindrome, ohce likes it and after reverse-echoing it, it adds ¡Bonita palabra!
-ohce knows when to stop, you just have to write Stop! and it'll answer Adios < your name > and end.
+Write a program that prints one line for each number from 1 to 100
+Usually just print the number itself.
+For multiples of three print Fizz instead of the number
+For the multiples of five print Buzz instead of the number
+For numbers which are multiples of both three and five print FizzBuzz instead of the number
