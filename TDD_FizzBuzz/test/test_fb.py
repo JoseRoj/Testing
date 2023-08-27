@@ -6,6 +6,5 @@ def test_normal():
         assert fizz_buzz(i) == i
 
 def test_mult3():
-    assert fizz_buzz(3) == "fizz"
-    assert fizz_buzz(6) == "fizz"  
-    assert fizz_buzz(9) == "fizz"
+    for i in [3, 6, 9]:
+        assert fizz_buzz(i) == "fizz"
