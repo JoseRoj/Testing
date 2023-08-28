@@ -8,7 +8,9 @@ def saludar(name,hora = datetime.datetime.now().hour):
     if hora >= 12 and hora < 20:
         return "¡Buenas tardes " + name + "!"
 
-def isPalindrome(word):
+def isPalindrome(word,name):
+    if word == "Stop!":
+        return "Adios " + name
     cadena = word.lower().replace(" ","")
     if(cadena == cadena[::-1]):
         return [word[::-1], "¡Bonita palabra!"]
