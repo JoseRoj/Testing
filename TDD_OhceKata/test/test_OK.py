@@ -9,4 +9,9 @@ def test_saludar():
     assert saludar("Pedro",10) == "¡Buenos días Pedro!"
     assert saludar("Ale",8) == "¡Buenos días Ale!"    
     
+def test_palindrome():
+    assert isPalindrome("ana")[0] == "ana"
+    assert isPalindrome("ana")[1] == "¡Bonita palabra!"
+
+
    
