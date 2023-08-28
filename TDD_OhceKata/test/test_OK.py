@@ -12,6 +12,9 @@ def test_saludar():
 def test_palindrome():
     assert isPalindrome("ana")[0] == "ana"
     assert isPalindrome("ana")[1] == "¡Bonita palabra!"
+    assert isPalindrome("anita lava la tina")[0] == "anit al aval atina"
+    assert isPalindrome("anita lava la tina")[1] == "¡Bonita palabra!"
+    assert isPalindrome("hola") == "aloh"
 
 
    
