@@ -1,12 +1,9 @@
 import datetime
-def saludar_noche(name,hora = datetime.datetime.now().hour):
-    if hora == 20 or hora == 6:
+
+def saludar(name,hora = datetime.datetime.now().hour):
+    if hora >= 20 or hora < 6:
         return "¡Buenas noches " + name + "!"
-
-def saludar_tarde(name,hora = datetime.datetime.now().hour):
-    if hora == 12 or hora == 18:
-        return "¡Buenas tardes " + name + "!"
-
-def saludar_dia(name,hora = datetime.datetime.now().hour):
-    if hora == 10 or hora == 8:
+    if hora >= 6 and hora < 12:
         return "¡Buenos días " + name + "!"
+    if hora >= 12 and hora < 20:
+        return "¡Buenas tardes " + name + "!"
