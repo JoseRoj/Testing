@@ -31,3 +31,7 @@ def test_saludo_adios():
     assert saludo_adios("Pedro", 20) == "¡Buenas noches Pedro!\n¡Adios Pedro!"
     assert saludo_adios("Juan", 12) == "¡Buenas tardes Juan!\n¡Adios Juan!"
     assert saludo_adios("Ale", 8) == "¡Buenos días Ale!\n¡Adios Ale!"
+    
+def test_all():
+    assert all("Pedro",20,["ana","stop","oto","Stop!"]) == "¡Buenas noches Pedro!\nana\n¡Bonita palabra!\npots\noto\n¡Bonita palabra!\nAdios Pedro"
+    assert all("Leo",12,["Juan","stop","Somos o no somos","Stop!"]) == "¡Buenas tardes Leo!\nnauJ\npots\nsomos on o somoS\n¡Bonita palabra!\nAdios Leo"
