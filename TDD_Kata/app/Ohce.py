@@ -18,3 +18,14 @@ def isPalindrome(word):
     
 def saludo_adios(name,hora):
     return saludar(name,hora) + "\n¡Adios " + name + "!"
+
+def all(name,hora,lista):
+    cadena = saludar(name,hora)
+    i = 0
+    while lista[i] != "Stop!":
+        cadena += "\n" + reverse(lista[i])
+        if(isPalindrome(lista[i]) != ""):
+            cadena += "\n" + isPalindrome(lista[i])
+        i = i + 1
+    cadena += "\nAdios " + name
+    return cadena
