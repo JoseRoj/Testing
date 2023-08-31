@@ -15,3 +15,6 @@ def isPalindrome(word):
         return "¡Bonita palabra!"
     else:
         return ""
+    
+def saludo_adios(name,hora):
+    return saludar(name,hora) + "\n¡Adios " + name + "!"
