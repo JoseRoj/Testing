@@ -3,3 +3,5 @@ def saludar(name,hora):
         return "¡Buenas noches " + name + "!"
     if hora >= 6 and hora < 12:
         return "¡Buenos días " + name + "!"
+    if hora >= 12 and hora < 20:
+        return "¡Buenas tardes " + name + "!"
