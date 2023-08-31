@@ -25,4 +25,5 @@ def test_isPalindrome():
     assert isPalindrome("ana") == "¡Bonita palabra!"
     assert isPalindrome("oto") == "¡Bonita palabra!"
     assert isPalindrome("hola") == ""
+    assert isPalindrome("Anita lava la tina") == "¡Bonita palabra!"
     
