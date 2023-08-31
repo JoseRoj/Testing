@@ -27,3 +27,7 @@ def test_isPalindrome():
     assert isPalindrome("hola") == ""
     assert isPalindrome("Anita lava la tina") == "¡Bonita palabra!"
     
+def test_saludo_adios():
+    assert saludo_adios("Pedro", 20) == "¡Buenas noches Pedro!\n¡Adios Pedro!"
+    assert saludo_adios("Juan", 12) == "¡Buenas tardes Juan!\n¡Adios Juan!"
+    assert saludo_adios("Ale", 8) == "¡Buenos días Ale!\n¡Adios Ale!"
