@@ -8,3 +8,9 @@ def saludar(name,hora):
 
 def reverse(word):
     return word[::-1]
+
+def isPalindrome(word):
+    if(word == word[::-1]):
+        return "¡Bonita palabra!"
+    else:
+        return ""
