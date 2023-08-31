@@ -20,3 +20,9 @@ def test_reverse():
     assert reverse("ana") == "ana"
     assert reverse("stop") == "pots"
     assert reverse("hola") == "aloh"
+    
+def test_isPalindrome():
+    assert isPalindrome("ana") == "¡Bonita palabra!"
+    assert isPalindrome("oto") == "¡Bonita palabra!"
+    assert isPalindrome("hola") == ""
+    
