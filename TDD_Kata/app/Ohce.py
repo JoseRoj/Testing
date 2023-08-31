@@ -7,5 +7,4 @@ def saludar(name,hora):
         return "¡Buenas tardes " + name + "!"
 
 def reverse(word):
-    cadena = word[::-1]
-    return cadena
+    return word[::-1]
