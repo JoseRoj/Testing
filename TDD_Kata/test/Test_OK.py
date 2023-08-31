@@ -15,4 +15,8 @@ def test_saludar_tarde():
     assert saludar("Pedro",12) == "¡Buenas tardes Pedro!"
     assert saludar("Ale",15) == "¡Buenas tardes Ale!"
     assert saludar("Juan",19) == "¡Buenas tardes Juan!"
-    
+
+def test_reverse():
+    assert reverse("ana") == "ana"
+    assert reverse("stop") == "pots"
+    assert reverse("hola") == "aloh"
