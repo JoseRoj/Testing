@@ -10,3 +10,9 @@ def test_saludar_dia():
     assert saludar("Pedro",7) == "¡Buenos días Pedro!"
     assert saludar("Ale",9) == "¡Buenos días Ale!"
     assert saludar("Juan",11) == "¡Buenos días Juan!"
+
+def test_saludar_tarde():
+    assert saludar("Pedro",12) == "¡Buenas tardes Pedro!"
+    assert saludar("Ale",15) == "¡Buenas tardes Ale!"
+    assert saludar("Juan",19) == "¡Buenas tardes Juan!"
+    
